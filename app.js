@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000
 console.log(PORT);
 
 app.get("/", (res, req) => {
-    req.send("test application 1")
+    req.send("NodeJS CICD auto Triggers Completed")
 })
 
 
